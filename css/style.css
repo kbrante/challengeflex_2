@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    list-style: none;
 }
 body {
 
@@ -15,25 +16,35 @@ header {
 
 h1 {
     font-size: 5vw;
-    margin: 0;
+    margin: 0 0.25em;
 }
 
 header h2 {
     font-size: 1vw;
+    margin: 0 2vw;
 }
 
 header img {
     float: right;
+    margin: 0 2vw;}
+
+nav {
+    padding: 2em 0;
+    background-color: #fafafa;
+    border: 1px solid black;
+    margin: 0 2vw;
+    width : 900px;
 }
 
 header ul {
     display: flex;
-    background-color: #fafafa;
+    justify-content: center;
 }
+
 header ul li {
-    list-style: none;
-    margin:0 1em;
+    margin-right: 1vw;
 }
+
 a {
     color: #505050;
 }
@@ -46,16 +57,41 @@ main {
     width: 994px;
     margin: 0 auto;
     background-color: white;
-
+    padding-bottom: 0.001em;
 }
+
+main section {
+    margin: 0;
+}
+
 main img {
-    margin: 0 auto;
+    margin: 0 2vw;
+}
+
+main h2 {
+    margin: 0 2vw;
+}
+
+main span {
+    margin: 0 2vw;
+}
+
+main p {
+    margin: 2vw;
 }
 
 footer {
     width: 994px;
     margin: 0 auto;
     background-color: white;
+}
+
+footer h2 {
+    margin: 0 2vw 2vw 2vw;
+}
+
+footer article {
+    margin: 0 2vw;
 }
 
 
